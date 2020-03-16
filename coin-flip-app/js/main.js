@@ -1,3 +1,5 @@
+//*Collaborators: Finesse, Asiah, Vanessa, Zahmir, Nyah, Joshua, Eric  */
+
 document.querySelector("button").addEventListener('click', makeReq)
 
 function makeReq(){
