@@ -1,6 +1,43 @@
+/* Built in Codepen */
+
 h1{
+  text-align: center;
+  background-color:red;
   color: gold;
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 200px;
+  padding:25px;
 }
-h2{
-  color:red;
+
+h1 > div {
+  width:60px;
+  background-color: #f1f1f1;
+  text-align: center;
+  line-height: 60px;
+  font-size: 15px;
+  border-radius: 40px;
+}
+  
+button{
+  background-color: red;
+  color: gold;
+  margin: auto;
+  display: block;
+  border-radius: 25px;
+}
+
+#Right {
+  margin-Left: 10px;
+  color: red;
+}
+
+#Left {
+  margin-right: 10px;
+  color: red;
 }
