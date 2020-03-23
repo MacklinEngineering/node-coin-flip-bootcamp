@@ -1,27 +1,37 @@
 /* Built in Codepen */
 
+ody{
+  background-color: black;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
 h1{
   text-align: center;
   background-color:red;
   color: gold;
-  margin-top: 50px;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin: 50px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   border-radius: 200px;
   padding:25px;
+  min-width: 175px;
+  max-width: 250px;
+  border: 1px solid white;
+  text-shadow: 1px 1px 1px red,
+             2px 2px 1px white;
 }
 
 h1 > div {
-  width:60px;
+  min-width: 60px;
   background-color: #f1f1f1;
   text-align: center;
   line-height: 60px;
   font-size: 15px;
   border-radius: 40px;
+
 }
   
 button{
@@ -30,14 +40,38 @@ button{
   margin: auto;
   display: block;
   border-radius: 25px;
+  padding: 8px;
+}
+
+button:hover {
+color: #ffffff;
+background: #f6b93b;
+border-color: #f6b93b;
+transition: all 0.4s ease 0s;
 }
 
 #Right {
   margin-Left: 10px;
   color: red;
+  border: 1px solid #494949 ;
+}
+
+#Right:hover {
+color: #ffffff;
+background: #f6b93b;
+border-color: white;
+transition: all 0.4s ease 0s;
 }
 
 #Left {
+  border: 1px solid black ;
+  border-color: white;
   margin-right: 10px;
   color: red;
+}
+#Left:hover {
+color: #ffffff;
+background: #f6b93b;
+border-color: white;
+transition: all 0.4s ease 0s;
 }
